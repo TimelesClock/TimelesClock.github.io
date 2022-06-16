@@ -1,0 +1,145 @@
+/*Page 1 styles*/
+
+.Page-1{
+    background:url(BackgroundImage/5.png);
+}
+
+/*Page 2 styles*/
+
+.Page-2{
+    flex-direction: row;
+    position:absolute;
+    top:100%;
+    left:0;
+    border:0.5px black solid;
+    width:100%;
+    height:85%;
+    background-color: rgba(96,102,112,1);
+}
+
+.Page-2>*{
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-2 > h1:first-of-type{
+    position:relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left:5%;
+    height:10%;
+    width:20%;
+    text-align: center;
+}
+
+.Wrapper{
+    width:100%;
+    height:80%;
+    background-color: rgba(96,102,112,1);
+    display:flex;
+}
+
+.Wrapper > div{
+    border:2px black solid;
+    font-size:130%;
+    height:95%;
+    margin:1% 1% 1% 1%;
+    flex:2;
+}
+
+.Wrapper > table{
+    border:1px black solid;
+    flex:5;
+    margin:1% 1% 1% 1%;
+    font-size:85%;
+}
+
+.Wrapper > table,th,td{
+    border:1px black solid;
+    text-align:center;
+    transition-duration: 0.4s;
+    height:75px;
+}
+
+.Wrapper > th,td{
+    padding:5px 5px 5px 5px;
+}
+
+.Wrapper > th,td:hover{
+    border:1px white solid;
+}
+
+tr#hide{
+    display:none;
+}
+
+.colstart{
+    width:1px;
+}
+
+.col1{
+    width:23px;
+}
+
+/*Page 3 styles*/
+
+.Page-3{
+    position:absolute;
+    top:185%;
+    left:0;
+    border:0.5px black solid;
+    width:100%;
+    height:200%;
+    background-color: rgba(96,102,112,1);
+}
+
+.Page-3>*{
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-3 > h1:first-of-type{
+    position:relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left:5%;
+    height:5%;
+    width:20%;
+    text-align: center;
+}
+
+.Page-3 > div#Wrapper2{
+    position:relative;
+    display:inline-block;
+    border-radius: 10px;
+    background-color: rgba(96,102,112,1);
+    width:98%;
+    height:90%;
+    margin:auto 1% auto 1%; 
+}
+
+.Page-3 > div > div{
+    position:relative;
+    border:2px black solid;
+    margin: 1% 1% 1% 1%;
+    height:50%;
+    width:30%;
+    float: left;
+}
+
+.Page-3 > div > div > h1,p{
+    text-align: center;
+}
+
+.Page-3 > div > div > img{
+    position:absolute;
+    max-height:490px;
+    width:100%;
+    bottom:0;
+}
+
+/*Footer Styles*/
+
+footer{
+    top:385%;
+}

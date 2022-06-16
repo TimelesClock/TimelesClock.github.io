@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Andy Leong</title>
+    <link href="default.css" rel="stylesheet">
+    <link href="Feedback.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Icons/poly.svg" alt="Icon" />
+        <p>Leong Yu Zhi Andy</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="BeforeSp.html">Before SP</a></li>
+                <li><a href="SpLife.html">Sp Life</a></li>
+                <li><a href="Career.html">Career Options</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Page-1">
+        <form autocomplete="off" action = "response.html" target="_self" method="get">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <label for="date">Date of accessing of website:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <label id = "checkbox" for = "checkbox1">Was the pictures viewable</label>
+            <input type = "checkbox" id = "checkbox1" name = "checkbox1">
+            <br>
+            <label for = "browser">Browser Type</label>
+            <select id = "browser" name = "browser">
+                <option value = "Google Chrome">Google Chrome</option>
+                <option value = "Microsoft Edge">Microsoft Edge</option>
+                <option value = "Mozilla Firefox">Mozilla Firefox</option>
+                <option value = "Opera">Opera</option>
+                <option value = "Others">Others</option>
+            </select>
+            <br>
+            <label for = "num">How many minutes did you spend on the site for?</label>
+            <input type = "number" id = "num" name="num">
+            <br>
+            <label id = "rate1" for = "rate2">On a scale of 1 to 10, is this website informative?</label>
+            <input type = "range" id = "rate2" name = "rate2" min="1" max="10" value="5">
+            <br>
+            <label id = "rate3" for = "rate4">On a scale of 1 to 10, is the information on this website easy to digest?</label>
+            <input type = "range" id = "rate4" name = "rate4" min="1" max="10" value="5">
+            <br>
+            <fieldset>
+                <legend>Overall Experience:</legend>
+                <label for = "verybad">Very Unsatisfied</label>
+                <input type = "radio" id = "verybad" name = "radio" value = "verybad">
+                <label for = "bad">Unsatisfied</label>
+                <input type = "radio" id = "bad" name = "radio" value = "bad">
+                <label for = "neutral">Neutral</label>
+                <input type = "radio" id = "neutral" name = "radio" value = "neutral">
+                <label for = "good">Satisfied</label>
+                <input type = "radio" id = "good" name = "radio" value = "good">
+                <label for = "verygood">Very Satisfied</label>
+                <input type = "radio" id = "verygood" name = "radio" value = "verygood">
+            </fieldset>
+            <label for="feedback">Feedback:</label><br>
+            <textarea name="feedback" id="feedback" rows="7" cols="1" wrap="hard">Any more comments?</textarea>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="BeforeSp.html">Before SP</a></li>
+            <li><a href="SpLife.html">Sp Life</a></li>
+            <li><a href="Career.html">Career Options</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+        </ul>
+        <a href="https://github.com/TimelesClock" target="_blank"><img src="Icons/github.png" alt="Test" width="40"
+                height="40"></a>
+        <a href="mailto:LeongAndy.22@ichat.sp.edu.sg"><img src="Icons/mail.png" alt="Test" width="40" height="40"></a>
+    </footer>
+</body>
+

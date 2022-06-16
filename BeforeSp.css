@@ -1,0 +1,233 @@
+/*Page 1 styles*/
+
+.Page-1 {
+    background: url(BackgroundImage/3-min.png) left top no-repeat, url(BackgroundImage/1.jpg) right top no-repeat, url(BackgroundImage/2.jpg) left bottom no-repeat, url(BackgroundImage/4-min.png) right bottom no-repeat;
+    background-size: 50% 50%;
+}
+
+/*Page 2 styles*/
+.Page-2 {
+    flex-direction: row;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 0.5px black solid;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(96, 102, 112, 1);
+}
+
+.Page-2>* {
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-2>h1:first-of-type {
+    position: relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left: 5%;
+    height: 10%;
+    width: 20%;
+    text-align: center;
+}
+
+.Projects {
+    position: relative;
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    width: 95%;
+    height: 80%;
+    left: 2.5%;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 8%, 51%);
+
+}
+
+.Projects>div {
+    width: 80%;
+    height: 100%;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin: auto 2.5% auto 2.5%;
+    background-color: rgba(96, 102, 112, 1);
+}
+
+
+.Projects>div>iframe {
+    border-color: black;
+    width: 100%;
+    height: 68%;
+}
+
+
+/*Page 3 styles*/
+
+.Page-3 {
+    flex-direction: row;
+    position: absolute;
+    top: 185%;
+    left: 0;
+    border: 0.5px black solid;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(96, 102, 112, 1);
+}
+
+.Page-3>* {
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-3>h1:first-of-type {
+    position: relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left: 5%;
+    height: 15%;
+    width: 20%;
+    text-align: center;
+}
+
+.Awards {
+    position: relative;
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 95%;
+    height: 75%;
+    margin: auto 2.5% auto 2.5%;
+    white-space: nowrap;
+}
+
+.Awards>img {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin: auto 1.6% auto 1.6%;
+    border: 2px black solid;
+    transition-duration: 0.4s;
+}
+
+.Awards>img:hover {
+    border: 2px white solid;
+}
+
+/*Page 4 styles*/
+
+.Page-4 {
+    flex-direction: row;
+    position: absolute;
+    top: 270%;
+    left: 0;
+    border: 0.5px black solid;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(96, 102, 112, 1);
+}
+
+.Page-4>* {
+    background-color: hsl(216, 8%, 51%);
+}
+
+
+
+.Page-4>h1 {
+    position: relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left: 5%;
+    height: 12%;
+    width: 25%;
+    text-align: center;
+}
+
+.Leadership {
+    width: 90%;
+    height: 75%;
+    margin: auto 5% auto 5%;
+    border: 1px black solid;
+}
+
+.Leadership>div {
+    border: 4px black solid;
+    height: 100%;
+    width: 30%;
+    margin: auto 1.6% auto 1.6%;
+    float: left;
+    transition-duration: 0.8s;
+}
+
+.Leadership>div:hover {
+    border: 4px white solid;
+}
+
+.Leadership>div>* {
+    text-align: center;
+    font-size: 350%;
+}
+
+/*Page 5 styles*/
+
+.Page-5 {
+    flex-direction: row;
+    position: absolute;
+    top: 330%;
+    left: 0;
+    border: 0.5px black solid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 102, 112, 1);
+}
+
+.Page-5>* {
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-5>h1 {
+    position: relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left: 5%;
+    height: 15%;
+    width: 25%;
+    text-align: center;
+}
+
+.Page-5>div {
+    position: relative;
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 98%;
+    height: 75%;
+    margin: auto 1% auto 1%;
+    white-space: nowrap;
+}
+
+.Page-5>div>img {
+    display: inline-block;
+    position: relative;
+    height: 90%;
+    width: 30%;
+    margin: 2% 1.5% auto 1.5%;
+    border: 2px black solid;
+    transition-duration: 0.4s;
+}
+
+.Page-5>div>img:hover {
+    border: 2px white solid;
+}
+
+/*Footer Styles*/
+
+footer {
+    top: 430%;
+}

@@ -1,0 +1,108 @@
+/*Page 1 styles*/
+
+.Page-1{
+    display:block;
+    position:absolute;
+    top: 15%;
+    height:115%;
+    width:100%;
+}
+
+.Page-1 > form > label{
+    margin: 5% 10% 1% 10%;
+    font-size:150%;
+}
+
+.Page-1 > form > input,textarea{
+    background-color: rgba(120,128,140,1);
+    border: 2px black solid;
+    font-size:200%;
+}
+
+.Page-1 > form > input{
+    border-radius: 5px;
+}
+
+.Page-1 > form > input::placeholder{
+    color: hsl(216, 21%, 73%);
+}
+
+.Page-1 > form > input#name{
+    width:40%;
+    margin: 1% 10% 1% 10%;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form > input#date{
+    width:15%;
+    margin: 1% 10% 1% 10%;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form > input#checkbox1{
+    width:5%;
+    margin: 1% 1% 1% 1%;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form > label#checkbox{
+    margin: 1% 1% 1% 10%;
+}
+
+.Page-1 form > select{
+    background-color: hsl(216, 8%, 51%);;
+}
+.Page-1 > form > input#num{
+    width:5%;
+    margin: 1% 10% 1% 10%;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form > input#rate2{
+    width:15%;
+    margin: 1% 10% 1% 10%;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form > label#rate3{
+    margin:5% 4.7% 1% 10%;
+}
+
+.Page-1 > form > input#rate4{
+    width:15%;
+    margin: 1% 0 1% 0;
+    padding:2px 0 2px 0;
+    font-size:150%;
+}
+
+.Page-1 > form >fieldset{
+    width:80%;
+    margin: 1% 10% 1% 10%;
+}
+
+.Page-1 > form > textarea{
+    margin: 1% 10% 1% 10%;
+    width:50%;
+}
+
+.Page-1 > form > input#submit{
+    border:2px black solid;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.Page-1 > form > input#submit:hover{
+    border:2px white solid;
+    cursor: pointer;
+}
+
+/*Footer Styles*/
+
+footer{
+    top:130%;
+}

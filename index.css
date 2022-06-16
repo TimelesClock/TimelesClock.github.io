@@ -1,0 +1,103 @@
+/*Page 2 styles*/
+.Page-2{
+    position:absolute;
+    top:100%;
+    left:0;
+    border:0.5px black solid;
+    width:100%;
+    height:85%;
+    background-color: rgba(96,102,112,1);
+}
+
+.Page-2>*{
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-2 > h1:first-of-type{
+    position:relative;
+    border: 2px black solid;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    left:5%;
+    height:10%;
+    width:20%;
+    text-align: center;
+}
+
+.Page-2 > div{
+    background-color: rgba(96,102,112,1);
+    width:100%;
+    height:90%;
+    display:inline-block;
+    font-size:150%;
+}
+
+.Page-2 > div>div{
+    position:relative;
+    border:1px black solid;
+    margin:1% 1% 1% 1%;
+    width:31%;
+    height: 70%;
+    float:left;
+    background-color: hsl(216, 8%, 51%);
+}
+
+
+
+.Page-2 >div > div > h1{
+    margin:0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Page 3 styles*/
+
+.Page-3{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    flex-wrap:wrap;
+    top:185%;
+    left:0;
+    border:0.5px black solid;
+    width:100%;
+    height:85%;
+    background-color: rgba(96,102,112,1);
+}
+
+.Page-3>*{
+    background-color: hsl(216, 8%, 51%);
+}
+
+.Page-3 > div{
+    border: 1px black solid;
+    position: relative;
+    flex:2 1 0;
+    margin: 5% 5% 5% 5%;
+    width:70%;
+    font-size:150%;
+}
+
+.Page-3 > div > h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Page-3 > div > h1 > p{
+    text-align: center;
+    text-decoration: none;
+}
+
+.Page-3>img{
+    flex:1 1 0;
+    margin: 5% 5% 5% 5%;
+    border: 1px black solid;
+    height:80%;
+}
+
+/*Footer Styles*/
+
+footer{
+    top:270%;
+}
+

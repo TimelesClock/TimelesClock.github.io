@@ -1,0 +1,172 @@
+/*Most of the repeated styles are stored on this file
+and is used by default unless overwritten by their respective
+styles in the files*/
+
+
+/*Sets every font as Open sans and color based on layout in CA1 part 1*/
+*{
+    font-family: "Open Sans";
+    box-sizing: border-box;
+    color: hsl(216, 21%, 73%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header Styles*/
+
+header{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    background-color: hsl(220, 8%, 37%);
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left:0;
+    border: 1px black solid;
+    z-index:2;
+}
+
+header img{
+    z-index: 1;
+    position:absolute;
+    left:0;
+    height:100%;
+}
+
+header p{
+    position:absolute;
+    top:0;
+    right:0;
+    color:white;
+}
+
+
+
+/* Nav Styles*/
+
+nav{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul li{
+    list-style:none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 1px black solid;
+    background-color:hsl(222, 8%, 32%);
+    text-align: center;
+    transition-duration: 0.8s;
+}
+
+nav ul li a:hover{
+    border-color:white
+}
+
+/*Body Styles*/
+
+body{
+    background-color: hsl(217, 8%, 41%);   
+}
+
+
+
+
+/*Page 1 Styles*/
+
+.Page-1{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    flex-wrap:wrap;
+    top:15%;
+    left:0;
+    border:0.5px black solid;
+    width:100%;
+    height:85%;
+    background-color: rgba(96,102,112,1);
+}
+
+
+.Intro-Box{
+    border:4px black solid;
+    position:relative;
+    flex:1 1 0;
+    margin: 7% 15% 10% 5%;
+    padding:8% 2.5% 6% 2.5%;
+    background-color: rgba(120,128,140,1);
+    text-align:center;
+    font-size:400%;
+}
+
+
+
+.P-Box{
+    border:4px black solid;
+    position:relative;
+    flex:1 1 0;
+    margin: 15% 5% 5% 2.5%;
+    width:40%;
+    height:50%;
+    background-color: rgba(120,128,140,1);
+}
+
+.P-Box > ul > li{
+    font-size:150%;
+}
+
+.P-Box > p{
+    font-size:200%;
+}
+
+/*Footer styles*/
+
+footer{
+    background-color: hsl(220, 8%, 37%);
+    position:absolute;
+    border:1px black solid;
+    left:0;
+    width:100%;
+}
+
+footer > ul > li{
+    float:left;
+    margin:15px;
+}
+
+footer > ul > li > a{
+    text-decoration: none;
+}
+
+footer > ul > li > a:hover{
+    text-decoration:underline;
+}
+
+footer>ul>li:last-of-type{
+    margin-right:60%;
+}
+
+footer > a{
+    width:40px;
+    height:40px;
+    position: relative;
+    margin: 1% 0 0 1%;
+}
+
+footer>img{
+    float:left;
+}
