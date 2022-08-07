@@ -1,0 +1,24 @@
+/* Remove all caps */
+.custom-h1{
+    font-family: "Open Sans";   
+    text-transform: initial;
+}
+/* Set the height */
+.custom-img-height{
+    height:80%;
+}
+
+/* Page 1 Styles */
+#Page-1{
+    background-image:url('../BackgroundImage/after.png');
+    background-attachment:local;
+    background-size:cover;
+
+}
+/* Page 3 Styles */
+#Page-3{
+    background-image:url('../BackgroundImage/tt.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:local;
+}

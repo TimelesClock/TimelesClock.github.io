@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Html Head -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Andy Leong | Feedback</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/default.css">
+    <link rel = "stylesheet" href = "./CSS/feedback.css">
+</head>
+<!-- Body -->
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+        <!-- Logo / Name -->
+        <div class="container "><a class="navbar-brand toggle" href="#">Leong Yu Zhi Andy</a><button
+                data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right toggle card" data-bs-target="#navbarResponsive"
+                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse " id="navbarResponsive">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item nav-link"><a class="nav-link toggle " href="index.html">Home</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link toggle" href="BeforeSp.html">Before SP</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link toggle" href="SpLife.html">SP Life</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link toggle" href="career.html">Career Options</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link toggle active" href="feedback.html">Feedback</a></li>
+                    <li class = "nav-item nav-link">
+                        <div class="d-flex toggle flex-wrap justify-content-center t-white">
+                            <a><span class="toggle badge hours" id = "hours"></span></a> :
+                            <a><span class="toggle badge min" id = "min"></span></a> :
+                            <a><span class="toggle badge sec" id = "sec"></span></a>
+                         </div>
+                    </li>
+                    <!-- Dark Mode Light Mode Toggle -->
+                    <li class="nav-item nav-link">
+                        <button id="dl-logo" onclick="dark_light()"><img src="./Icons/brightness.png" height="35" width="35" alt="Dark-Light Toggle"></button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page 1 Section -->
+    <section class="content-section container-fluid row" id="Page-1">
+        <h1 class="d-flex justify-content-start">Feedback</h1>
+        <form class=" row">
+            <div class=" col-sm-6 mb-3 mx-5">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control py-2" id="Name" placeholder="John" required>
+                <div class="invalid-feedback">
+                    no
+                </div>
+            </div>
+
+
+            <div class=" col-sm-6 mb-3 mx-5">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control py-2" id="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class=" col-sm-6 mb-3 mx-5">
+                <label for="startDate">Date of accessing website</label>
+                <input id="startDate" class="form-control" type="date" required>
+            </div>
+
+            <div class=" col-sm-6 mb-3 mx-5">
+                <label for="browser" class="form-label">Browser Type</label>
+                <select id="browser" class="form-select" aria-label="Default select example" required>
+                    <option value="">Open this select menu</option>
+                    <option value="1">Google Chrome</option>
+                    <option value="2">Microsoft Edge</option>
+                    <option value="3">Firefox</option>
+                    <option value="4">Safari</option>
+                    <option value="5">Opera</option>
+                </select>
+            </div>
+            <div class="col-sm-6 mb-3 mx-5">
+                <label for="num">How many minutes did you spend on the site for?</label>
+                <br>
+                <input class="mt-3 text-center" type="number" id="num" name="num" placeholder="Number" required>
+            </div>
+            <div class="col-sm-6 mb-3 mx-5">
+                <label for="informative" class="form-label">On a scale of 1 to 10, is this website informative? Value:
+                    <span id="informativeOut"></span></label>
+                <input type="range" class="form-range" min="1" max="10" id="informative" value="5">
+            </div>
+            <div class="col-sm-6 mb-3 mx-5">
+                <label for="easy" class="form-label">On a scale of 1 to 10, is the information on this website easy to digest? Value: <span
+                        id="easyOut"></span></label>
+                <input type="range" class="form-range" min="1" max="10" id="easy" value="5">
+            </div>
+            <div class="col-sm-6 mb-3 mx-5">
+                <p>Overall Experience</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Very Unsatisfied</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Unsatisfied</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio3">Neutral</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio4">Satisfied</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio5">Very Satisfied</label>
+                </div>
+            </div>
+            <div class="col-sm-12 ms-5">
+                <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#feedbackmodal">Submit form</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="feedbackmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-black" id="exampleModalLabel">Feedback</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-black">
+                            Feedback submitted successfully!<br>
+                            (Note: Data is not sent to a server)
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class='d-flex py-3 gap-3 container-fluid'>
+        <div class='row container-fluid'>
+            <ul class='d-flex container col-lg-8 row'>
+                <li class='col-sm-2'><a class='text-decoration-none text-reset custom-hover'
+                        href="./index.html">Home</a></li>
+                <li class='col-sm-2'><a class='text-decoration-none text-reset custom-hover'
+                        href="./BeforeSp.html">Before SP</a></li>
+                <li class='col-sm-2'><a class='text-decoration-none text-reset custom-hover' href="./SpLife.html">Sp
+                        Life</a></li>
+                <li class='col-sm-2'><a class='text-decoration-none text-reset custom-hover' href="./Career.html">Career
+                        Options</a></li>
+                <li class='col-sm-2'><a class='text-decoration-none text-reset custom-hover'
+                        href="./Feedback.html">Feedback</a></li>
+            </ul>
+            <ul class="list-inline banner-social-buttons col-lg-4">
+                <li class="list-inline-item">
+                    <a class="btn btn-primary btn-lg btn-default" href="mailto:LeongAndy.22@ichat.sp.edu.sg"
+                        target="_blank"><i class="material-icons">email</i><span class="network-name">email</span></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn btn-primary btn-lg btn-default" href="https://github.com/TimelesClock"
+                        target="_blank"><i class="fa fa-github fa-fw"></i><span class="network-name">Github</span></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/feedback.js"></script>
+    <script src="./JS/default.js"></script>
+</body>
+
+</html>

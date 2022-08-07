@@ -1,0 +1,65 @@
+* {
+    font-family: "Open Sans";
+}
+
+html {
+    scroll-padding-top: 11% !important;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.card{
+    background-color: rgb(35,35,35);
+}
+
+.btn:hover{
+    transform:scale(1.5)
+}
+
+.custom-hover:hover {
+    text-decoration: underline !important;
+}
+
+.dark-mode {
+    background-color:
+        rgb(225,225,225);
+    color:
+        black !important;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.ignore{
+    color:white!important;
+}
+
+.t-white{
+    color:white;
+}
+/* Animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+
+

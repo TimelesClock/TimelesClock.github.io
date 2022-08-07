@@ -1,0 +1,23 @@
+/* Filter backdrop for clearer text */
+.csstest{
+    backdrop-filter: blur(3px)!important;
+}
+
+/* Make card image consistent size */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.card{
+    width:25rem;
+}
+
+/* Page 1 Styles */
+#Page-1{
+    background-image:url('../BackgroundImage/5.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+

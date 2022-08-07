@@ -1,0 +1,38 @@
+#Page-1{
+    background-image:url('../BackgroundImage/career.jpeg');
+    background-repeat:no-repeat;
+}
+
+#Page-3{
+    background-image: url('../BackgroundImage/skillset.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.progress{
+    height:30px;
+}
+
+.py{
+    width:70%;
+}
+
+.js{
+    width:60%;
+}
+
+.htmlp{
+    width:50%;
+}
+
+.css{
+    width:50%;
+}
+
+.sql{
+    width:30%;
+}
+
+.ignore{
+    margin-top: 5px;
+}

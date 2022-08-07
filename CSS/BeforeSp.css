@@ -1,0 +1,31 @@
+/* Carousel Styles */
+.carousel-inner img{
+    margin:auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+.carousel-indicators{
+    filter:invert(20%);
+}
+
+
+/* Background images */
+#Page-1{
+    background-image:url('../BackgroundImage/beforeSp.png');
+}
+
+#Page-3{
+    background-image:url('../BackgroundImage/award.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#Page-5{
+    background-image:url('../BackgroundImage/sgc.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
